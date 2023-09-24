@@ -1,0 +1,45 @@
+.carousel-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.carousel {
+  box-shadow: 0 0 5px black;
+  padding: 2.75em 0.5em 2em 0.5em;
+}
+
+.carousel-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.carousel-main i {
+  align-self: center;
+  font-size: 1.25em;
+}
+
+.carousel img {
+  display: block;
+  max-width: 60vw;
+  max-height: 40vw;
+  width: auto;
+  height: auto;
+  min-width: 60vw;
+  min-height: 40vw;
+}
+
+.carousel-nav {
+  font-size: .75em;
+  text-align: center;
+  padding-top: .4em;
+}
+
+.is-selected {
+  border-radius: 50%;
+  background-color: black;
+  transition: background-color 0.5s linear 0s;
+}
